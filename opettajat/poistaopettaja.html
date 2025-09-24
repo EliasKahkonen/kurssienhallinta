@@ -1,0 +1,15 @@
+<html>
+<head><meta charset="utf-8"><title>Poista opettaja</title></head>
+<body>
+  <h2>Poista opettaja</h2>
+  <form method="POST" action="poistaopettaja.php"
+        onsubmit="return confirm('Poistetaanko opettaja annetulla tunnuksella?');">
+    Opettajan tunnus (ID): 
+    <input type="number" name="opettajatunnus" required>
+    <br><br>
+    <button type="submit">Poista opettaja</button>
+  </form>
+<p><a href="naytaopettaja.php?id=1">Takaisin</a>
+<p><a href="/kurssienhallinta">Takaisin etusivulle</a></p>
+</body>
+</html>

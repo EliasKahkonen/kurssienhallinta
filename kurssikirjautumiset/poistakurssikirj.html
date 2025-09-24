@@ -1,0 +1,14 @@
+<html>
+<head><meta charset="utf-8"><title>Poista kurssikirjautuminen</title></head>
+<body>
+  <h2>Poista kurssikirjautuminen</h2>
+  <form method="POST" action="poistakurssikirj.php"
+        onsubmit="return confirm('Poistetaanko kirjautuminen annetulla tunnuksella?');">
+    Kirjautumisen tunnus (ID):
+    <input type="number" name="kirjautumistunnus" required>
+    <br><br>
+    <button type="submit">Poista</button>
+  </form>
+<p><a href="/kurssienhallinta">Takaisin etusivulle</a></p>
+</body>
+</html>
