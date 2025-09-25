@@ -1,6 +1,9 @@
 <html>
-<head><meta charset="utf-8"><title>Poista kurssikirjautuminen</title></head>
-<body>
+<head><meta charset="utf-8"><title>Poista kurssikirjautuminen</title>
+<link rel="stylesheet" href="/kurssienhallinta/lomake.css">
+</head>
+<body><center>
+  <div class="lomake">
   <h2>Poista kurssikirjautuminen</h2>
   <form method="POST" action="poistakurssikirj.php"
         onsubmit="return confirm('Poistetaanko kirjautuminen annetulla tunnuksella?');">
@@ -10,5 +13,8 @@
     <button type="submit">Poista</button>
   </form>
 <p><a href="/kurssienhallinta">Takaisin etusivulle</a></p>
+
+</div>
+</center>
 </body>
 </html>

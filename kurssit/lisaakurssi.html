@@ -1,6 +1,10 @@
 <html>
-<head><meta charset="utf-8"></head>
-<body>
+<head><meta charset="utf-8">
+<link rel="stylesheet" href="/kurssienhallinta/lomake.css">
+</head>
+<body><center>
+    <div class="lomake">
+    <h2>Lisää Kurssi</h2>
     <form method="POST" action="lisaakurssi.php"> 
 	Kurssin nimi: <input type="text" name="Nimi"> <br><br>
     Kurssin Kuvaus: <input type="text" name="Kuvaus"> <br><br>
@@ -10,6 +14,8 @@
     Tilan Tunniste: <input type="number" name="tila_id"> <br><br>
 	<input type="submit" value="Tallenna">	
     </form>
+    </div>
 <p><a href="/kurssienhallinta">Takaisin etusivulle</a></p>
+</center>
 </body>
 </html>

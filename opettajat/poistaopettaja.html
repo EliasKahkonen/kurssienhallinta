@@ -1,6 +1,9 @@
 <html>
-<head><meta charset="utf-8"><title>Poista opettaja</title></head>
-<body>
+<head><meta charset="utf-8"><title>Poista opettaja</title>
+<link rel="stylesheet" href="/kurssienhallinta/lomake.css">
+</head>
+<body><center>
+  <div class="lomake">
   <h2>Poista opettaja</h2>
   <form method="POST" action="poistaopettaja.php"
         onsubmit="return confirm('Poistetaanko opettaja annetulla tunnuksella?');">
@@ -9,7 +12,11 @@
     <br><br>
     <button type="submit">Poista opettaja</button>
   </form>
-<p><a href="naytaopettaja.php?id=1">Takaisin</a>
-<p><a href="/kurssienhallinta">Takaisin etusivulle</a></p>
+
+  <p><a href="/kurssienhallinta">Takaisin etusivulle</a></p>
+
+</div>
+
+</center>
 </body>
 </html>

@@ -1,7 +1,10 @@
 <html>
-<head><meta charset="utf-8"></head>
-<body>
+<head><meta charset="utf-8">
+<link rel="stylesheet" href="/kurssienhallinta/lomake.css">
+</head>
+<body><center>
   <h2>Lisää kurssikirjautuminen</h2>
+  <div class="lomake">
   <form method="POST" action="lisaakurssikirj.php"> 
     Opiskelijan tunniste (opiskelijatunnus):
     <input type="number" name="opiskelija_id" required> <br><br>
@@ -14,6 +17,8 @@
 
     <input type="submit" value="Tallenna">
   </form>
+  </div>
 <p><a href="/kurssienhallinta">Takaisin etusivulle</a></p>
+</center>
 </body>
 </html>

@@ -1,5 +1,7 @@
+
 <?php 
 // LISTAA TILAT
+
 @ini_set("display_errors", 1);
 @ini_set("error_reporting", E_ALL);
 
@@ -176,3 +178,4 @@ foreach ($tulos as $rivi) {
 
 echo '<p><a href="/kurssienhallinta">Takaisin etusivulle</a></p>';
 ?>
+
